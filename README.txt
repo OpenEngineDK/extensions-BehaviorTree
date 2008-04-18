@@ -1,12 +1,10 @@
-Author: OpenEngine Team
+Author: Anders Nissen
 
-Homepage: http://www.openengine.dk/wiki/Extensions/ExampleExtension
+Homepage: http://www.openengine.dk/wiki/Extensions/BehaviorTree
 
 Get the latest version with:
-  darcs get http://daimi.au.dk/~cgd/extensions/ExampleExtension
+  darcs get http://openengine.dk/code/extensions/BehaviorTree
 
-This is an example extension demonstrating how extensions work.
-For more infomation on how to create your own extensions checkout
-http://www.openengine.dk/wiki/CreatingExtension
+Supplies primitives to build behavior trees to specify logic and animation.
 
 
