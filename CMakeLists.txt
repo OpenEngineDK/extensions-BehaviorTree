@@ -10,4 +10,5 @@ ADD_LIBRARY(Extensions_BehaviorTree
   Logic/DebugDecorator.cpp
   Logic/RandomSelector.cpp
   Logic/ProbabilitySelector.cpp
+  Logic/LoopOnSuccessDecorator.cpp
 )

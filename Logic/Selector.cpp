@@ -29,11 +29,10 @@ namespace Logic {
 	  }
 
       TaskStatus status = task->Execute();
+      currentTask = NULL;
       if (status != TASK_FAIL) {
           if (status == TASK_RUNNING) {
             currentTask = task;
-          } else {
-            currentTask = NULL;
           }
           return status;
       }

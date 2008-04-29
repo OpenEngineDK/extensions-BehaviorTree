@@ -24,6 +24,9 @@ namespace Logic {
   Task::TaskStatus ProbabilitySelector::Execute() {
     if (currentTask != NULL) {
       TaskStatus status = currentTask->Execute();
+      if (status != TASK_RUNNING) {
+      	currentTask = NULL;
+      }
       if (status != TASK_FAIL) {
         return status;
       }
