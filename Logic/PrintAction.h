@@ -30,7 +30,7 @@ namespace Logic {
     virtual ~PrintAction() {}
 
     virtual TaskStatus Execute() {
-      printf((text + "\n").c_str());
+      printf("%s", (text + "\n").c_str());
       return TASK_SUCCESS;
     }
   };

@@ -9,6 +9,10 @@
 
 #include <Logic/ProbabilitySelector.h>
 
+#include <stdio.h>
+#include <stdlib.h>
+
+
 namespace OpenEngine {
 namespace Logic {
 
@@ -32,7 +36,7 @@ namespace Logic {
       }
     }
     
-    int selectedWeight = (int)(((float)std::rand()/RAND_MAX)*totalWeight);
+    int selectedWeight = (int)(((float)rand()/RAND_MAX)*totalWeight);
     int weightCounter = 0;
     
     std::vector<WeightedTask>::iterator weightedTaskIter;

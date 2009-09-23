@@ -11,9 +11,6 @@
 #define _CALLBACK_TASK_H_
 
 #include <Logic/Task.h>
-#include <EventSystem/Listener.h>
-
-using namespace OpenEngine::EventSystem;
 
 namespace OpenEngine {
 namespace Logic {
